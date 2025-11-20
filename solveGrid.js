@@ -1,3 +1,5 @@
+const checkGlobalConstraints = require('./checkGlobalConstraints');
+
 const N = 5;
 const domain = Array.from({length: N*N}, (_, i) => i+1);
 
